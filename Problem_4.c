@@ -5,9 +5,18 @@
 
 int main()
 {
-  	int n;
+  	int n,i,j;
+  	printf("Enter number of lines required ");
 
   	scanf("%d", &n);
+  	for(i=1;i<=n;i++)
+  	{
+  	  for(j=1;j<=i;j++)
+  	  {
+  	    printf("* ");
+  	  }
+  	  printf("\n");
+  	}
 
   	//Write your code here
   	
